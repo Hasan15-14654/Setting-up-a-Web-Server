@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    color: brown;
+}
+
+h2,
+h3 {
+    margin: 0%
+}
+
+body {
+    background-color: rgb(219, 173, 204);
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px
+}
+
+header {
+    padding: 40px;
+    overflow: hidden;
+}
+
+header>#logo {
+    font-size: 2em;
+}
+
+nav {
+    float: right;
+}
+
+main {
+    padding: 40px;
+    overflow: hidden;
+}
+
+section {
+    float: left;
+    width: 70%
+}
+
+article {
+    padding: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+article:last-child {
+    border-bottom: 0px;
+}
+
+aside {
+    background-color: rgb(255, 200, 80);
+    padding: 10px;
+    float: right;
+    width: 30%
+}
+
+aside h3 {
+    background-color: rgb(201, 69, 69);
+    color: #ffffff;
+    padding: 10px;
+}
+
+aside a {
+    color: black;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
